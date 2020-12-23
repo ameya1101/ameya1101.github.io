@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost/</loc>
+    <loc>https://ameya1101.github.io/</loc>
   </url>
   
   <url>
-    <loc>localhost/blog/</loc>
+    <loc>https://ameya1101.github.io/blog/</loc>
   </url>
   
   <url>
-    <loc>localhost/series/</loc>
+    <loc>https://ameya1101.github.io/series/</loc>
   </url>
   
   <url>
-    <loc>localhost/tags/</loc>
+    <loc>https://ameya1101.github.io/tags/</loc>
   </url>
   
 </urlset>
