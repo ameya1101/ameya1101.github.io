@@ -14,7 +14,7 @@
       <pubDate>Wed, 23 Dec 2020 20:14:01 +0530</pubDate>
       
       <guid>https://ameya1101.github.io/projects/</guid>
-      <description>Other Projects           A term paper on neutrino oscillations and symmetries as part of a class on quantum mechanics.                    I found a solution to the Max-Cut problem using the Variational Quantum Eigensolver (VQE) algorithm.    </description>
+      <description>Other Projects           A term paper on neutrino oscillations and symmetries as part of a class on quantum mechanics.                    After having a bit of a haiku phase, I developed a RNN-based (rather cheeky) haiku generator using haikus sourced from Reddit.                    I found a solution to the Max-Cut problem using the Variational Quantum Eigensolver (VQE) algorithm.</description>
     </item>
     
     <item>
