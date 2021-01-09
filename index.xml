@@ -14,7 +14,8 @@
       <pubDate>Wed, 23 Dec 2020 20:14:01 +0530</pubDate>
       
       <guid>https://ameya1101.github.io/projects/</guid>
-      <description>Other Projects           A term paper on neutrino oscillations and symmetries as part of a class on quantum mechanics.                    After having a bit of a haiku phase, I developed a RNN-based (rather cheeky) haiku generator using haikus sourced from Reddit.                    I found a solution to the Max-Cut problem using the Variational Quantum Eigensolver (VQE) algorithm.</description>
+      <description>Modelling Neutron Star Parameters using Bayesian Neural Networks A Study Oriented Project under Dr Kinjal Banerjee, Department of Physics
+The Equation of State (EOS) of a neutron star enables us to deduce its structure and behaviour; the EOS is often parameterised by certain key Nuclear Matter Parameters (NMPs) which can be used to form the EOS and subsequently to deduce important properties about the star. In this project, I am attempting to develop a Bayesian neural network-based model to predict neutron star properties such as its mass, radius and tidal deformability using a multivariate Gaussian distribution of the NMPs as the input.</description>
     </item>
     
     <item>
