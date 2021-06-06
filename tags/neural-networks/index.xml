@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neural-networks on Ameya Thete</title>
+    <link>https://ameya1101.github.io/tags/neural-networks/</link>
+    <description>Recent content in neural-networks on Ameya Thete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 03 Jun 2021 19:30:00 +0530</lastBuildDate><atom:link href="https://ameya1101.github.io/tags/neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural Network Quantum States</title>
+      <link>https://ameya1101.github.io/posts/neural-quantum-states/</link>
+      <pubDate>Thu, 03 Jun 2021 19:30:00 +0530</pubDate>
+      
+      <guid>https://ameya1101.github.io/posts/neural-quantum-states/</guid>
+      <description>In perhaps one of the most well-known treatises in physics — the Principia Mathematica, Isaac Newton tries to explain the motion of the Moon under the gravitational influence of both the Sun and the Earth. At the time, Newton argued that &amp;ldquo;it would exceed the force of human wit to consider so many causes of motion at the same time&amp;rdquo;.
+Physics has come a long way since the times of Newton, but this question, called the many-body problem, troubles us to this day.</description>
+    </item>
+    
+  </channel>
+</rss>

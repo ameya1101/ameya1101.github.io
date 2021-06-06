@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 23 Dec 2020 19:14:11 +0530</lastBuildDate><atom:link href="https://ameya1101.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 19:30:00 +0530</lastBuildDate><atom:link href="https://ameya1101.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural Network Quantum States</title>
+      <link>https://ameya1101.github.io/posts/neural-quantum-states/</link>
+      <pubDate>Thu, 03 Jun 2021 19:30:00 +0530</pubDate>
+      
+      <guid>https://ameya1101.github.io/posts/neural-quantum-states/</guid>
+      <description>In perhaps one of the most well-known treatises in physics — the Principia Mathematica, Isaac Newton tries to explain the motion of the Moon under the gravitational influence of both the Sun and the Earth. At the time, Newton argued that &amp;ldquo;it would exceed the force of human wit to consider so many causes of motion at the same time&amp;rdquo;.
+Physics has come a long way since the times of Newton, but this question, called the many-body problem, troubles us to this day.</description>
+    </item>
+    
     <item>
       <title>Projects</title>
       <link>https://ameya1101.github.io/projects/</link>
@@ -34,7 +44,7 @@ The Equation of State (EOS) of a neutron star enables us to deduce its structure
       
       <guid>https://ameya1101.github.io/about/</guid>
       <description>Hi there! I&amp;rsquo;m Ameya.
-I&amp;rsquo;m a third-year undergraduate at BITS, Pilani - K. K. Birla Goa Campus where I&amp;rsquo;m majoring in Physics and Computer Science.
+I&amp;rsquo;m a fourth-year undergraduate at BITS, Pilani - K. K. Birla Goa Campus where I&amp;rsquo;m majoring in Physics and Computer Science.
 Currently, I&amp;rsquo;m exploring multiple areas of study at the intersection of physics and computer science, but something I&amp;rsquo;m really fascinated by is the emerging area of Quantum Machine Learning and neural network representations of quantum states. I&amp;rsquo;m also interested in quantum computing approaches to ameliorate existing numerical methods.</description>
     </item>
     
