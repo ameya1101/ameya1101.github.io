@@ -37,7 +37,7 @@ Physics has come a long way since the times of Newton, but this question, called
 <meta itemprop="description" content=" The many-body problem is one of the most notoriously complex problems in physics. See how neural networks are capable of tackling it. ">
 <meta itemprop="datePublished" content="2021-06-03T19:30:00+05:30" />
 <meta itemprop="dateModified" content="2021-06-03T19:30:00+05:30" />
-<meta itemprop="wordCount" content="2406">
+<meta itemprop="wordCount" content="2429">
 <meta itemprop="image" content="https://ameya1101.github.io/"/>
 
 
@@ -186,7 +186,7 @@ $$</p>
 <p>Now generally, \(H\) is not diagonal in the basis we choose, so we define an operator called the <em>local energy</em>,$$ E_{loc} = \sum_{x'} H_{x,x'}\frac{\psi(\boldsymbol{x'})}{\psi(\boldsymbol{x})} $$ By doing this, we obtain $$ E[\psi] = \langle \langle E_{loc} \rangle \rangle $$ where \( \langle\langle \cdots \rangle\rangle \) is the statistical expectation value obtained by sampling the distribution \( |\psi(\boldsymbol{x})|^2 \).</p>
 <p>Thus in Variational Monte-Carlo, we replace the sums over all the states (exponential in number) by a statistically large but finite number of samples drawn from the distribution \( |\psi(\boldsymbol{x})|^2 \). This allows us to stochastically evaluate the expectation value of the property of interest on a small sample instead of summing over the entire Hilbert space <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
 <h3 id="stochastic-reconfiguration">Stochastic Reconfiguration</h3>
-<p>AAn essential part of the learning procedure involves tweaking the neural network&rsquo;s weights to minimize the cost function at hand. In our case, the cost function is the total energy of the state (what we call the energy functional), which upon minimization, yields the ground state energy.While there are multiple methods to optimize a cost function, here we focus on Stochastic Reconfiguration (SR), introduced by Sorella et al. (2007) <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. This method is a variation of the commonly used gradient descent algorithm.</p>
+<p>An essential part of the learning procedure involves tweaking the neural network&rsquo;s weights to minimize the cost function at hand. In our case, the cost function is the total energy of the state (what we call the energy functional), which upon minimization, yields the ground state energy. While there are multiple methods to optimize a cost function, here we focus on Stochastic Reconfiguration (SR), introduced by Sorella et al. (2007) <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. This method is a variation of the commonly used gradient descent algorithm.</p>
 <p>To describe SR fully, first, we need to define a few gradients (or derivatives) of the cost function. The wavefunction ansatz \(\psi(\boldsymbol{x}; \theta)\) is defined in terms of a set of parameters, say \(\theta\). The derivatives of the wavefunction are
 $$ d\psi_i(\boldsymbol{x}; \theta) = \frac{1}{\psi(\boldsymbol{x}; \theta)} \frac{\partial \psi(\boldsymbol{x}; \theta)}{\partial \theta_i} $$</p>
 <p>Now, the gradients of the cost function are given as
@@ -198,7 +198,7 @@ $$ \theta_i \leftarrow \theta_i - \eta\sum_{j}S_{ij}\frac{\partial E[\psi]}{\par
 $$ S^{-1}_{ij} = \langle\langle d\psi^*_i(\boldsymbol{x}; \theta) ~d\psi_j(\boldsymbol{x}; \theta) \rangle\rangle - \langle\langle  d\psi^*_i(\boldsymbol{x}; \theta)\rangle\rangle \langle\langle  d\psi_j(\boldsymbol{x}; \theta)\rangle\rangle$$</p>
 <p>where \(\psi^*\) is the conjugate of the wavefunction.</p>
 <h3 id="restricted-boltzmann-machines">Restricted Boltzmann Machines</h3>
-<p>A RBM architecture consists of two layers: a visible layer and a hidden layer. There are symmetric connections between the two layers and there are no intra-layer connections (which is why the network is <em>restricted</em>).</p>
+<p>The neural network architecture selected for this problem is a pretty simple one — it&rsquo;s called a restricted Boltzmann machine, or RBM. A RBM architecture consists of two layers: a visible layer and a hidden layer. There are symmetric connections between the two layers and there are no intra-layer connections (which is why the network is <em>restricted</em>).</p>
 <figure class="center rounded">
     <img src="https://ameya1101.github.io/img/nqs/rbm.png"
          alt="Restricted Boltzmann Machine"/> <figcaption>
@@ -293,7 +293,7 @@ $$ \psi(\boldsymbol{x}; \theta) = \exp(-\boldsymbol{a}^T \boldsymbol{x} -\boldsy
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        2406 Words
+        2429 Words
       </p>
 
       <p>
