@@ -9,6 +9,15 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 03 Jun 2021 19:30:00 +0530</lastBuildDate><atom:link href="https://ameya1101.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Research</title>
+      <link>https://ameya1101.github.io/research/</link>
+      <pubDate>Thu, 10 Jun 2021 19:20:02 +0530</pubDate>
+      
+      <guid>https://ameya1101.github.io/research/</guid>
+      <description>Research Interests My research interests lie primarily at the intersection of physics and computer science. I&amp;rsquo;m interested in machine learning with a particular focus on its applications in physics. I&amp;rsquo;m also looking to contribute towards intersectional areas in quantum computing.</description>
+    </item>
+    
+    <item>
       <title>Neural Network Quantum States</title>
       <link>https://ameya1101.github.io/posts/neural-quantum-states/</link>
       <pubDate>Thu, 03 Jun 2021 19:30:00 +0530</pubDate>
@@ -24,8 +33,8 @@ Physics has come a long way since the times of Newton, but this question, called
       <pubDate>Wed, 23 Dec 2020 20:14:01 +0530</pubDate>
       
       <guid>https://ameya1101.github.io/projects/</guid>
-      <description>Modelling Neutron Star Parameters using Bayesian Neural Networks A Study Oriented Project under Dr Kinjal Banerjee, Department of Physics
-The Equation of State (EOS) of a neutron star enables us to deduce its structure and behaviour; the EOS is often parameterised by certain key Nuclear Matter Parameters (NMPs) which can be used to form the EOS and subsequently to deduce important properties about the star. In this project, I am attempting to develop a Bayesian neural network-based model to predict neutron star properties such as its mass, radius and tidal deformability using a multivariate Gaussian distribution of the NMPs as the input.</description>
+      <description>Modelling Neutron Star Parameters using Artificial Neural Networks A Study Oriented Project under Dr Kinjal Banerjee, Department of Physics
+The Equation of State (EOS) of a neutron star enables us to deduce its structure and behaviour; the EOS is often parameterised by certain key Nuclear Matter Parameters (NMPs) which can be used to form the EOS and subsequently to deduce important properties about the star. In this project, we are attempting to develop a neural network-based model to predict neutron star properties such as its mass, radius and tidal deformability using a multivariate Gaussian distribution of the NMPs as the input.</description>
     </item>
     
     <item>
@@ -44,8 +53,9 @@ The Equation of State (EOS) of a neutron star enables us to deduce its structure
       
       <guid>https://ameya1101.github.io/about/</guid>
       <description>Hi there! I&amp;rsquo;m Ameya.
-I&amp;rsquo;m a fourth-year undergraduate at BITS, Pilani - K. K. Birla Goa Campus where I&amp;rsquo;m majoring in Physics and Computer Science.
-Currently, I&amp;rsquo;m exploring multiple areas of study at the intersection of physics and computer science, but something I&amp;rsquo;m really fascinated by is the emerging area of Quantum Machine Learning and neural network representations of quantum states. I&amp;rsquo;m also interested in quantum computing approaches to ameliorate existing numerical methods.</description>
+I&amp;rsquo;m a fourth-year undergraduate student at BITS, Pilani - K. K. Birla Goa Campus where I&amp;rsquo;m studying Physics and Computer Science.
+Currently, I am working with Irene Lopez-Gutierrez at TUM where I am looking at efficient optimization techniques for neural network quantum states and their generalizability to other common neural network architectures.
+At BITS, my research has been primarily supervised by Dr. Kinjal Banerjee in Nuclear Astrophysics where I am working on developing neural network-based approaches to predict neutron star properties and unveil correlations between nuclear matter parameters.</description>
     </item>
     
   </channel>
