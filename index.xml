@@ -33,8 +33,7 @@ Physics has come a long way since the times of Newton, but this question, called
       <pubDate>Wed, 23 Dec 2020 20:14:01 +0530</pubDate>
       
       <guid>https://ameya1101.github.io/projects/</guid>
-      <description>Modelling Neutron Star Parameters using Artificial Neural Networks A Study Oriented Project under Dr Kinjal Banerjee, Department of Physics
-The Equation of State (EOS) of a neutron star enables us to deduce its structure and behaviour; the EOS is often parameterised by certain key Nuclear Matter Parameters (NMPs) which can be used to form the EOS and subsequently to deduce important properties about the star. In this project, we are attempting to develop a neural network-based model to predict neutron star properties such as its mass, radius and tidal deformability using a multivariate Gaussian distribution of the NMPs as the input.</description>
+      <description>Modelling Neutron Star Properties using Artificial Neural Networks  Supervisor:  Dr. Kinjal Banerjee  The Equation of State (EOS) of a neutron star is parameterised by certain key Nuclear Matter Parameters (NMPs) which help to deduce important properties about the star. We attempt to develop a neural network-based model to predict neutron star properties such as its mass, radius and tidal deformability using a multivariate Gaussian distribution of the NMPs as the input.</description>
     </item>
     
     <item>
