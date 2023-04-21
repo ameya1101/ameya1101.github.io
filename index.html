@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ameya Thete</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            .papers li {
+            margin: 10px 0;
+            }
+            .hl {
+            /* Highlighed element */
+            background-color: rgb(255, 255, 208);
+            /* padding: 5px; */
+            }
+            p.quote {
+            padding: 10px;
+            }
+            .container {
+            display: flex;
+            justify-content: center;
+            }
+            .main {
+            /* border: 1px solid black; */
+            max-width: 1000px;
+            }
+            .columns {
+            display: flex;
+            /* padding: 30px; */
+            }
+            .column{
+            /* margin-left: 30px; */
+            margin-right: 30px;
+            }
+            .columnb {
+            flex : 1;
+            margin-right: 0px;
+            }
+            .columnc {
+            flex : 1;
+            margin-left: 20px;
+            }
+            header {
+            /* border: 1px solid gray; */
+            display: flex;
+            }
+            header .desc{
+            margin-right: 30px;
+            max-width: 600px; /* 400px */
+            text-align: justify;
+            }
+            .headshot {
+            width: 230px;
+            height: 230px;
+            display:block;
+            background: "headshot.jpg" no-repeat;
+            background-size: 230px;
+            margin-top: 20px;
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="./js/analytics.js"></script><script async="" src="./js/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-MBXSVEB0F3');
+        </script>
+        <script>
+            window.addEventListener('load', (event) => {
+                document.querySelector('#active').innerHTML = students.sort(
+                    (a, b) => a.split(' ')[1].localeCompare(b.split(' ')[1])).join(', ')
+            
+                body = document.querySelector('body');
+                for (var [k, v] of Object.entries(links)) {
+                    // TODO: this trimming removes nbsp... fix this eventually..
+                    trimmed = body.innerHTML.replace(/\s+/g, ' ').trim(); // remove newlines/spaces/etc --> single space
+                    body.innerHTML = trimmed.replaceAll(k, `<a href=${v}>${k}</a>`);
+                }
+            });
+            
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <header>
+                    <div class="column">
+                        <a href="https://ameya1101.github.io/">
+                            <div class="headshot" style="background-image: url(&quot;./imgs/headshot.jpg&quot;);"></div>
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <h1 style="margin-bottom: 0px;">Ameya Thete</h1>
+                        <code>f20180885@goa.bits-pilani.ac.in</code> 
+                        <p>
+                            Hi there! I'm a senior undergrad at <a href="https://bits-pilani.ac.in/goa" target="_blank"> BITS, Pilani — Goa</a>, where I'm majoring in Physics and Computer Science. In Fall 2023, I will be starting my Ph.D. in Physics at <a href="https://physics.wisc.edu/" target="_blank">UW-Madison</a>.
+                        </p>
+                        <p>
+                            I'm interested the development of machine learning algorithms to augment current data analysis techniques in experimental particle physics at the Large Hadron Collider. My research has an emphasis on using geometric deep learning algorithms 
+                            in tandem with symmetry-equivariant architectures to (i) simulate particle physics interactions with granular calorimeter detectors; and (ii) develop accelerated particle tracking algorithms. 
+                        </p>
+                        <p>
+                            I'm presently working on my bachelor's thesis, advised by <a href="http://www.sergeigleyzer.com/" target="_blank">Sergei Gleyzer</a>, on applying denoising diffusion models to reconstruct the detector response for ttbar jets for the CMS calorimeter module. 
+                        </p>
+                        <p>
+                            My name is pronounced Ameya (“uh-may-yuh”).
+                        </p>
+                        <p>
+                            <a href="https://inspirehep.net/authors/2142573" target="_blank"> <b>[publications]</b></a> <a href="./pdf/cv.pdf" target="_blank"> <b>[CV]</b></a> <a href="https://twitter.com/ameyathete" target="_blank"> <b>[twitter]</b></a> <br> 
+                        </p>
+                    </div>
+                </header>
+                <div class="row">
+                    <!-- <div class="hl">
+                        If you are at UW-Madison and want to chat (about absolutely anything!) shoot me an email or drop by my office: :)
+                    </div> -->
+                    <hr>
+                    <h3> News </h3>
+                    <ul>
+                        <!-- <li> Sep 2023: I have moved to the University of Wisconsin-Madison. </li>
+                        <li> May 2023: I submitted my bachelor's <a href="">[thesis]</a>! </li> -->
+                        <li> Oct 2022: Check out our <a href="https://indi.to/Gh2Fs", target="_blank">[poster]</a> on SO(2)-equivariant particle tracking accepted to the 21st ACAT at Bari, Italy!</li>
+                        <li> Aug 2022: New manuscript on <a href="" target="_blank">Inferring the dense matter equation of state from neutron star observations via ANNs</a>.</li>
+                        <li> Jun 2022: I've joined IRIS-HEP as a summer research fellow! <a href="https://iris-hep.org/fellows/ameya1101.html" target="_blank">[webpage]</a></li>
+                        <li> 2001: Born </li>
+                    </ul>
+                    <h3>Recent/Upcoming Invited Talks</h3>
+                    <div style="overflow: auto; height:80px">
+                        <ul>
+                            <li> 03 Nov 2022: FIAS talk (<a href="https://www.fias.science/en/theoretical-sciences/research-groups/kai-zhou/", target="_blank">Kai Zhou</a> group) on "ANN-based Inference of the Neutron Star Equation of State" <a href="https://ameya1101.github.io/pdf/fias-slides.pdf", target="_blank">[slides]</a> </li>
+                            <li> 19 Oct 2022: IRIS-HEP talk on "Equivariant GNNs for Charged Particle Tracking". <a href="https://indico.cern.ch/event/1199559/contributions/5097283/attachments/2531421/4355522/IRIS-HEP%20Presentation%20-%20Ameya.pdf", target="_blank">[slides]</a> <a href="https://youtu.be/gEaqn7C9ipY?t=6277", target="_blank">[video]</a> </li>
+                    </div>
+                    <hr>
+                </div>
+                <div class="columns">
+                    <div class="columnb">
+                        <h2>Research</h2>
+                        My research focuses on the development of machine learning algorithms for experimental particle physics searches at the LHC.
+                        <p> See <a href="https://inspirehep.net/authors/2142573" target="_blank"><b>[publications]</b></a> for a full list of papers. </p>
+                        
+                        <h3>Theses</h3>
+                        <ul class="papers"> 
+                            <a href="https://ameya1101.github.io/pdf/BITSPilani_thesis.pdf"> <b> Score-based Generative Models for Detector Reconstruction and Fast Simulations in High-Energy Physics </b></a> <br> Ameya Thete<br> <i> Bachelor's Thesis, Birla Institute of Technology and Science, Pilani. May 2023.</i> <a href="">[cite]</a> 
+                        </ul>
+                        
+                        <h3>Particle Physics</h3>
+                        <ul class="papers">
+                            <li> <a href="https://arxiv.org/abs/2304.05293"> <b> Equivariant Graph Neural Networks for Charged Particle Tracking</b> </a>  <a href="https://indi.to/Gh2Fs", target="_blank">[poster]</a> <br> <a href="https://crd.lbl.gov/divisions/scidata/phax/people/staff/daniel-murnane", target="_blank">Daniel Murnane</a>, <a href="https://datascience.columbia.edu/people/savannah-thais/", target="_blank">Savannah Thais</a>, Ameya Thete <br> <i>21st ACAT, Bari, Italy. October 2022.</i> </li>
+                        </ul>
+
+                        <h3>Multimessenger Astrophysics</h3>
+                        <ul class="papers">
+                            <li> <a href="https://arxiv.org/abs/2208.13163", target="_blank"> <b>Inferring the dense matter equation of state from neutron star observations via artificial neural networks</b></a> <br> Ameya Thete, <a href="https://www.bits-pilani.ac.in/goa/kinjalb/Profile", target="_blank">Kinjal Banerjee</a>, <a href="https://scholar.google.co.in/citations?user=TfkcZioAAAAJ&hl=en", target="_blank">Tuhin Malik </a><br> <i>Manuscript, 2022.</i> </li>
+                        </ul>
+                    </div>
+                    <div class="columnc">
+                        <!-- <figure>
+                            <a href="https://mltheory.org/deep.pdf">
+                                <img src="./Preetum Nakkiran_files/deep_img.png" ,="" width="100%"> 
+                                <figcaption>Deep Double Descent</figcaption>
+                            </a>
+                        </figure> -->
+                        <!-- <figure> <a href="misc/gauss"> <img src="imgs/manifold_img.svg", width=100%> <figcaption>Gauss's Principle of Least Action</figcaption> </a> </figure> --> 
+                        <h2>About Me</h2>
+                        <p style="text-align:justify">
+                            I did my undergrad in Physics and Computer Science at BITS, Pilani - Goa. I'm broadly interested in experimental particle physics. In the past, I have worked as a summer fellow at IRIS-HEP (with <a href="https://crd.lbl.gov/divisions/scidata/phax/people/staff/daniel-murnane", target="_blank">Daniel Murnane</a> and <a href="https://datascience.columbia.edu/people/savannah-thais/", target="_blank">Savannah Thais</a>), 
+                            and APPCAIR, BITS Goa (with <a href="https://sites.google.com/site/lovekeshhome/", target="_blank">Lovekesh Vij</a> and <a href="https://tirtharajdash.github.io/", target="_blank">Tirtharaj Dash</a>), and have also done research in neural network quantum states, multimessenger astrophysics, and quantum field theory. I am grateful for past financial support during my undergrad from the DST, India through the INSPIRE-SHE scholarship. <a href="https://orcid.org0000-0002-8089-5945">[ORCID]</a> 
+                        </p>
+                        <p> 
+                            This version of my website is (heavily) borrowed from <a href="https://preetum.nakkiran.org/">Preetum Nakkiran</a> and <a href="https://lucatrevisan.github.io/">Luca Trevisan</a>.
+                        </p>
+                        <!-- <div style="color:dimgray">
+                            <h2 style="color:dimgray">Miscellaneous Content</h2>
+                            <ul>
+                                <li><a href="./courses.html" target="_blank">Courses</a> I took in undergrad at BITS Pilani.</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
