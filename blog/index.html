@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ameya Thete</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .hl {
+            /* Highlighed element */
+            background-color: rgb(255, 255, 208);
+            /* padding: 5px; */
+            }
+            h3 {
+                margin-bottom: 0px;
+            }
+            p.quote {
+            padding: 10px;
+            }
+            .container {
+            display: flex;
+            justify-content: center;
+            }
+            .main {
+            /* border: 1px solid black; */
+            max-width: 1000px;
+            }
+            .columns {
+            display: flex;
+            padding-bottom: 30px;
+            }
+            .column{
+            /* margin-left: 30px; */
+            margin-right: 30px;
+            }
+            .columnb {
+            flex : 1;
+            margin-right: 0px;
+            }
+            header {
+            /* border: 1px solid gray; */
+            display: flex;
+            }
+            header .desc{
+            margin-right: 30px;
+            text-align: justify;
+            }
+            .dosa-img {
+            width: 320px;
+            height: 320px;
+            display:block;
+            background-size: 320px;
+            margin-top: 20px;
+            }
+            .checked {
+                color: orange;
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="./js/analytics.js"></script><script async="" src="./js/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-MBXSVEB0F3');
+        </script>
+        <script>
+            window.addEventListener('load', (event) => {
+                document.querySelector('#active').innerHTML = students.sort(
+                    (a, b) => a.split(' ')[1].localeCompare(b.split(' ')[1])).join(', ')
+            
+                body = document.querySelector('body');
+                for (var [k, v] of Object.entries(links)) {
+                    // TODO: this trimming removes nbsp... fix this eventually..
+                    trimmed = body.innerHTML.replace(/\s+/g, ' ').trim(); // remove newlines/spaces/etc --> single space
+                    body.innerHTML = trimmed.replaceAll(k, `<a href=${v}>${k}</a>`);
+                }
+            });
+            
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <header>
+                    <div class="desc">
+                        <h1 style="margin-bottom: 0px;">A Requiem for a Dosa</h1>
+                        <p>
+                            Hey there, welcome to this corner of my website where I pretend to be a pretentious food blogger and review things with the kitschy demeanour 
+                            of an imitation Anton Ego, the critic from the 2007 Pixar film Ratatouille. Unlike Ego, whose words actually carry some weight and tangibly affect a restaurant's reputation
+                            in the Ratatouille cinematic universe, my ramblings here have no such implications; however, very much like Ego, my opinions stem from a deep-seated respect and appreciation for 
+                            food, or rather in this case, a <i>single</i> kind of food. 
+                        </p>
+                        <p>
+                            For the unaware, the humble dosa — in my totally unbiased opinion — is perhaps humanity's greatest gastronomical invention. Its unassuming simplicity shrouds the richest and most complex 
+                            flavours; its versatility surpasses that of the naan, and its beauty rivals that of a perfect chocolate chip cookie. <i>[Sigh] Sure, Ameya, but you haven't told us what it is.</i>
+                            Right, so a dosa is a thin pancake, like a crêpe, made from a fermented batter of rice and black lentils. Dosas are served hot, with two popular accompaniments: a coconut chutney, and sambar, 
+                            which is a (sweetened) lentil stew with a tamarind-based broth. Yes I said sweet, and no I'm not ashamed of myself. The dosa is believed to have originated in Karnataka, a state in Southern India,
+                            around the 9th century CE. Alternate evidence points to an earlier Tamil origin, but I choose to believe the former because the modern-day dosa was certainly perfected in Karnataka, where it is called
+                            dōse [ದೋಸೆ, /d̪o:se/]. 
+                        </p>
+                        <p>
+                            Dear reader, at this point you might be wondering why I choose to extol the virtues of this food like it is an anointed sacrament. The dosa forms an integral part of Bangalore's breakfast traditions. If you were
+                            to walk on the streets of Bangalore on a Sunday morning, you'd be enveloped by the thick aroma of fresh dosas roasting in ghee, accented by the smell of filter coffee cutting through all that richness. Dosas are 
+                            intricably tied to the culture of the city, and any discussion of the food here would be remiss without mentioning our signature pancake. For as long as I remember, my Sundays began with a trip to the local <i> darshini 
+                            </i> (a nonchalant homely outlet that serves vegetarian South Indian fare) for a masala dosa and filter coffee. Hence, the dosa occupies a very special place in my heart — it's a static, unchanging monolith; a 
+                            symbol of constancy among the flurry of change in life. To me, it brings delicious simplicity to the plate, filling me up with satisfaction, going beyond mere gastronomical delights. This photoblog, if you can call it that, 
+                            is a reflection of my love for Bangalore and all its offerings.
+                        </p>
+                        <p>
+                            Throughout this series, I'll rate masala dosas — a variation of the dosa lined with a spicy garlic paste and served with a potato curry — at places across India (and maybe the world) from a scale of 1-5 over four different metrics: visual appeal, 
+                            batter (the overall quality, taste, and texture), the masala within, and finally the accompaniments. 
+                        </p>
+                        <p>
+                           So won't you come a-Waltzing Matilda with me? (<i>This phrase actually doesn't have anything to do with the theme of this blog, I just really really like the song.</i>)
+                        </p>
+                    </div>
+                </header>
+                <div class="columns">
+                    <div class="column">
+                        <div class="dosa-img" style="background-image: url(&quot;./blog-imgs/idc-bel-road.jpg&quot;);"></div>
+                    </div>
+                    <div class="columnb">
+                        <a href="https://goo.gl/maps/zgnrDNSwvUgkkzpU9" target="_blank"><h3>IDC Kitchen</h3></a>
+                        <i> Bangalore, India </i> [26.04.2023]
+                        <br>
+                        <ul>
+                            <li>
+                                Visual Appeal:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Batter:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Masala:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Accompaniments:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                         </ul>
+                         <b> Overall: </b>
+                         <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+
+                        <br>
+                        <b> Comments: </b>
+                        Don't let the picture fool you, the dosa looked mediocre; erring on the side of not great. Good char, I guess?
+                        Okayish taste, but what caught me off guard was that IDC chooses to use a podi (a lentil-based spice rub typically eaten with idlis) with their masala. 
+                        Creates an interesting texture but it doesn't work for me, plus the masala was very mushy :( Moreover, the ghee pooled up in inside the dosa, creating grease city.
+                        The chutney and sambar were good, but hardly reedeming. Do better, IDC.
+                    </div>
+                </div>
+                <hr>
+                <div class="columns">
+                    <div class="column">
+                        <div class="dosa-img" style="background-image: url(&quot;./blog-imgs/brahmins-thindi.jpg&quot;);"></div>
+                    </div>
+                    <div class="columnb">
+                        <a href="https://goo.gl/maps/Kcf27AjJLExaNHnz7" target="_blank"><h3>Brahmin's Thindis</h3></a>
+                        <i> Bangalore, India </i> [10.04.2023]
+                        <br>
+                        <ul>
+                            <li>
+                                Visual Appeal:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Batter:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Masala:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                            <li>
+                                Accompaniments:
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li> 
+                         </ul>
+                         <b> Overall: </b>
+                         <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+
+                        <br>
+                        <b> Comments: </b>
+                        Visually, this was a standard-issue dosa; an even sear throughout and extra points for the reddish hue of the masala peeking through the surface. 
+                        A nice mixture of crisp and constrasting soft, thicker bits, but the batter seemed to lack <i>something</i>; its taste felt unfinished, unrounded. An unfussy onion-and-potato masala was suprisingly 
+                        paired with an onion chutney (???), but it somehow worked. Loved the green coconut chutney, but the sambar was incredibly disappointing. 
+                        Cold and mildly spicy. All in all, an average dosa from an average <i>darshini</i>.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
